@@ -1,0 +1,30 @@
+ChatGPT
+
+PROMPT: 
+How to make an installable python package
+
+RESPONSE:
+---------------------------
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "mypackage"           # pip install mypackage
+version = "0.1.0"
+description = "Example Python package"
+authors = [{name = "Your Name"}]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = []            # add dependencies here, e.g. ["numpy"]
+
+
+[tool.setuptools]
+packages = ["mypackage"]
+----------------------------
+
+PROMPT: 
+What is configuration error: `project.dependencies[0]` must be pep508
+

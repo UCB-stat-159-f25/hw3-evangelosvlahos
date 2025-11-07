@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: ligotools
+Version: 0.6.0
+Summary: ligotools package for reading LIGO data files
+Author: Ligo Scientific Collaboration (LSC) and Evangelos Vlahos
+Project-URL: Homepage, https://github.com/UCB-stat-159-f25/hw3-evangelosvlahos/tree/main
+Project-URL: Issues, https://github.com/UCB-stat-159-f25/hw3-evangelosvlahos/issues
+Keywords: tools,ligo,losc,readligo,ligotools
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: ipykernel
+
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/wOo27OxG)
