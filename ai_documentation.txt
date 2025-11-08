@@ -28,3 +28,29 @@ packages = ["mypackage"]
 PROMPT: 
 What is configuration error: `project.dependencies[0]` must be pep508
 
+-----------------------------
+
+PROMPT: 
+        what is wrong with this Makefile 
+        BUILD_DIR = _build 
+        AUDIO_DIR = audio 
+        FIGURES_DIR = figures 
+
+        clean: 
+            rm -rf $(BUILD_DIR) 
+            rm -r $(AUDIO_DIR) 
+            rm -r $(FIGURES_DIR)
+
+RESPONSE: 
+        Use tabs for all recipe lines:
+
+------------------------------
+
+PROMPT: 
+        How to set up an environment in conda
+
+RESPONSE:
+        conda create -n myenv python=3.11
+        myenv is the environment name
+        python=3.11 is optional; omit or change version if needed
+        You’ll be asked to confirm → press y.
